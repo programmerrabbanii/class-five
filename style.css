@@ -135,9 +135,7 @@ header{
     line-height: 22px;
     margin-top: 21px;
 }
-.title{
 
-}
 .features-card {
     padding: 20px;
     box-shadow: 2px 0px 2px 1px #ddd;
@@ -165,15 +163,39 @@ header{
     top: -52px;
     right: 66px;
 }
-.buton h3{
-
-}
 .buton h5 {
     font-weight: 400;
 }
+.somee{
+    margin-top: 150px;
 
+}
+.some-title{
 
+}
+.some-title h3{
 
+}
+.some-title p{
+
+}
+.some-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 110px;
+    text-align: center;
+    margin-top: 83px;
+    padding-bottom: 50px;
+}
+.some-box h4 {
+    font-size: 11px;
+    font-weight: 400;
+}
+.some-box {
+    border: 1px solid #FF900E;
+    padding: 10px;
+    border-radius: 9px;
+}
 
 
 
@@ -213,5 +235,8 @@ header{
     }
     .feature-top p {
         margin-left: 12px;
+    }
+    .some-main{
+        grid-template-columns: repeat(1, 3fr);
     }
 }
