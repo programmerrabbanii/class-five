@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+main{
+    max-width: 1100px;
+    margin: auto;
+}
 /* google fonts link here */
  body{
     font-family: 'Work Sans', sans-serif;
@@ -62,11 +66,72 @@ header{
     border-radius: 8px;
     font-size: 16px;
 }
+/* bannar-section-end */
+/* quick-section-start */
+.quick{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    margin-top: 33px;
+
+}
+.quick-left{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+
+}
+
+.quick-right{
+    
+
+}
+.quick-right h3{
+    font-size: 33px;
+}
+.quick-right span{
+    color: #727272;
+    font-weight: 500;
+}
+.features h3{
+    color: #FF900E;
+}
+.quick-right p {
+    margin-bottom: 22px;
+    margin-top: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive for small devies */
 
 @media  screen and (max-width:640px) {
     .hader{
         flex-direction: column;
+    }
+    .quick{
+        flex-direction: column;
+    }
+    .quick-left{
+        grid-template-columns: repeat(1, 1fr);
     }
     
 }
