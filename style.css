@@ -100,6 +100,77 @@ header{
     margin-bottom: 22px;
     margin-top: 13px;
 }
+.feature{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 80px;
+    /* gap: 100px; */
+    
+}
+
+.features-picture img , .features-content{
+    width: 100%;
+    height: 100%;
+    
+
+}
+.feature-top  {
+    font-size: 17px;
+    margin-bottom: 15px;
+    line-height: 21px;
+    margin-top: 21px;
+}
+.feature-top h2 {
+    font-size: 40px;
+    margin-bottom: 11px;
+    border-left: 3px solid #FF900E;
+    padding-left: 18px;
+    line-height: 45px;
+    line-height: 40px;
+}
+.feature-top p {
+    /* width: 128%; */
+    font-size: 17px;
+    margin-bottom: 15px;
+    line-height: 22px;
+    margin-top: 21px;
+}
+.title{
+
+}
+.features-card {
+    padding: 20px;
+    box-shadow: 2px 0px 2px 1px #ddd;
+    width: 517px;
+    margin-bottom: 15px;
+}
+.features-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.features-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+}
+.buton {
+    background: #FF900E;
+    color: white;
+    width: 124px;
+    text-align: center;
+    padding: 25px 40px;
+    border-radius: 9px;
+    position: relative;
+    top: -52px;
+    right: 66px;
+}
+.buton h3{
+
+}
+.buton h5 {
+    font-weight: 400;
+}
 
 
 
@@ -127,11 +198,20 @@ header{
     .hader{
         flex-direction: column;
     }
-    .quick{
+    .quick , .feature{
         flex-direction: column;
     }
     .quick-left{
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    .buton {
+        width: 98px;
+        text-align: center;
+        padding: 20px 27px;
+        top: -40px;
+        right: -10px;
+    }
+    .feature-top p {
+        margin-left: 12px;
+    }
 }
